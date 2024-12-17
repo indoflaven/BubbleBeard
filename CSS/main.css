@@ -1,0 +1,941 @@
+		
+		html, body{
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			
+
+		}
+		
+		body{
+			background-color: #2da9ff;
+
+		}
+		
+		@font-face {
+		  font-family: PiratesBay;
+		  src: url('../fonts/PiratesBay.ttf');
+		}
+		
+
+		
+		#logo {
+			position:relative;
+			width: 100%;
+			top: 12%;
+			
+		}
+		
+		#logo2 {
+			position:relative;
+			width: 100%;
+			top: 15px;
+			
+		}
+		
+
+		
+		
+		.logo-bubblebeard { 
+			position:relative;
+			z-index: 2002;
+			margin: auto;
+		}
+		
+		.logo-thepirate { 
+			position:absolute;
+			z-index: 2003;
+			margin: auto auto auto auto;
+			
+		}
+		
+		.logo-subtitle { 
+			position:relative;
+			margin: 20px 20px 20px 20px;
+			color: #7C3C3C;
+			line-height: 100%;
+			word-spacing: -.5pt;
+			font-weight: normal;
+			font-size: 30pt;
+			text-shadow: 0 0 6px #e78800;
+			font-family: PiratesBay;
+			
+		}
+		
+
+		
+		
+
+		
+		.store-badges {
+			
+			position: relative;
+			height: 180px;
+			z-index: 2003;
+
+			
+		}
+
+
+
+
+		.thumbnails {
+			
+			position: relative;
+
+			
+		}
+		
+
+
+		.thumbnails a {
+			display: inline-block;
+			position:relative;
+			width: 294px;
+			height: 523px;
+			border: 8px solid rgb(255, 255, 255);
+			border: 8px solid rgba(255, 255, 255, .6);
+			border-radius: 20px;
+			background-color: white;
+			background-clip: padding-box;
+			transition: .2s ease;
+			
+		}
+		
+
+
+		
+	
+		.thumbnail-bubblebeard{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-image: url("../images/screenshot-intro-thumb2.jpg");
+			background-position: center center;
+			background-size: 306px;
+			transition: .2s ease;
+		}
+		
+		.thumbnail-sink{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-position: center center;
+			background-size: 306px;
+			background-image: url("../images/screenshot-sink-thumb.jpg");
+			transition: .2s ease;
+		}
+		
+		.thumbnail-xmark{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-position: center center;
+			background-size: 306px;
+			background-image: url("../images/screenshot-xmark-thumb.jpg");
+			transition: .2s ease;
+		}		
+		
+		.thumbnail-reclaim{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-position: center center;
+			background-size: 306px;
+			background-image: url("../images/screenshot-reclaim-thumb.jpg");
+			transition: .2s ease;
+		}			
+		
+		.thumbnail-sail{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-position: center center;
+			background-size: 306px;
+			background-image: url("../images/screenshot-sail-thumb.jpg");
+			transition: .2s ease;
+		}
+		
+		.thumbnail-amass{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screenshot-treasure-thumb.jpg");
+			transition: .2s ease;
+		}
+		.thumbnail-00{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/tub-thumb.jpg");
+			transition: .2s ease;
+		}
+		.thumbnail-01{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/tangrams-thumb.jpg");
+			transition: .2s ease;
+		}
+		.thumbnail-02{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/battles-thumb.jpg");
+			transition: .2s ease;
+		}
+		.thumbnail-03{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/customization-thumb.jpg");
+			transition: .2s ease;
+		}
+		.thumbnail-04{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/treasuremap-thumb.jpg");
+			transition: .2s ease;
+		}		
+		.thumbnail-05{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/mazes-thumb.jpg");
+			transition: .2s ease;
+		}		
+		.thumbnail-06{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/memory-thumb.jpg");
+			transition: .2s ease;
+		}	
+		.thumbnail-07{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/treasure-thumb.jpg");
+			transition: .2s ease;
+		}		
+		.thumbnail-08{
+			width: 100%;
+			height: 100%;
+			border-radius: 12px;
+			background-size: 306px;
+			background-position: center center;
+			background-image: url("../images/screens/beach-thumb.jpg");
+			transition: .2s ease;
+		}				
+		
+		.thumbnails a:hover .thumbnail-bubblebeard, .thumbnails a:hover .thumbnail-sail, .thumbnails a:hover .thumbnail-sink, .thumbnails a:hover .thumbnail-amass, .thumbnails a:hover .thumbnail-reclaim, .thumbnails a:hover .thumbnail-xmark, .thumbnails a:hover .thumbnail-01, .thumbnails a:hover .thumbnail-02, .thumbnails a:hover .thumbnail-03, .thumbnails a:hover .thumbnail-04, .thumbnails a:hover .thumbnail-05, .thumbnails a:hover .thumbnail-06 {
+			background-size: 352px;
+		
+		}
+		
+		.thumbnail02-iframe{
+			width: 100%;
+			height: 100%;
+			
+			border-radius: 12px;
+			background-position: center center;
+			background-image: url("../images/thumbnail02.png");
+		}
+		
+
+		.thumbnails a:hover {
+			border-color: #FF7F00;
+		}
+		
+		
+
+		
+		.play-button {
+			position: absolute;
+			
+			width: 133px;
+			height: 133px;
+			
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+			margin:auto;
+			opacity: 0.5;
+			transition: .2s ease;
+
+		}
+		
+		.thumbnails a:hover .play-button {
+			opacity: 1;
+			transform: scale(1.05);
+		
+		}
+		
+				
+		.thumbnail-title {
+			position: absolute;
+			
+			width: 374px;
+			height: 112px;
+			
+			left:-48px;
+			right:0;
+			top:0;
+
+			margin:auto;
+			transition: .2s ease;
+			transform: scale(1);
+		}
+		
+		.thumbnails a:hover .thumbnail-title {
+
+			transform: scale(1.15);
+		
+		}
+		
+		.thumbnail-title-bubblebeard {
+			top: 0px;
+		}
+		
+		.thumbnail-title-sail {
+			top: 300px;
+		}
+		
+		.thumbnail-title-xmark {
+			top: 40px;
+		}		
+		
+		.thumbnail-title-sink {
+			top: 280px;
+		}
+
+		.thumbnail-title-reclaim {
+			top: 275px;
+		}
+
+		.thumbnail-title-amass {
+			top: 200px;
+		}		
+
+
+
+
+		.title-text { 
+			color: #7C3C3C;
+			font-weight: normal;
+			text-shadow: 0 0 6px #e78800;
+			font-family: PiratesBay;
+			
+		}
+		
+		.body-text p, li, ul{ 
+			color: #531400;
+			font-weight: normal;
+			font-family: PiratesBay;
+			font-size: 14pt
+			word-spacing: -.5pt;
+			
+		}
+
+		.body-text ul a{ 
+			font-weight: normal;
+			font-family: Helvetica;
+			font-size: 10pt;
+			
+		}
+		
+		.body-text-first p:first-letter{ 
+			font-size: 47pt;
+			float: left;
+			margin: -15pt 5pt 0pt 0pt;
+			line-height: 50pt;
+			
+			
+	
+			
+		}
+
+		.old-photo {
+		
+			float: right;
+			margin: 0 0 15px 15px;
+			border-radius: 200px / 310px;
+			border: 4px dashed #531400;
+			max-width: 130px;
+
+		}
+		
+		.old-photo2 {
+		
+
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			margin-bottom: 30px;
+			width: 50%;
+			min-width:250px;
+			border-radius: 400px / 310px;
+			border: 4px dashed #531400;
+			clear: both;
+		}
+		
+		.footer-links {
+			position: relative; 
+			z-index:10000;
+			top: -175px;
+		
+		}
+		
+		footer p {
+		
+			color: white;
+			
+		}
+		
+		footer a{
+		
+			color: #4ffdff;
+			
+		
+		}
+		
+		footer a:hover{
+		
+			color: white;
+		
+		}
+
+		.little-skull {
+			width:57px;
+			height: 55px;
+			vertical-align:top;
+		}
+
+		.scroll {
+			position: relative;
+			top: -150px;
+		
+		}
+		.scroll-end{
+			width: 234px;
+			background-size: 234px 100%;
+		}
+		.scroll-end-left{
+			left:-150px;
+		}
+		.scroll-end-right{
+			left:-90px;
+		}
+		
+		.scroll-start{
+			height: 305px;
+		}
+
+		#scroll-content {
+			padding: 0px 60px 0px 60px; 
+			position:relative; 
+			max-height: 2300px; 
+			min-height:400px;
+			overflow: hidden;
+			z-index:200;
+		}
+
+
+
+
+    .swiper-container {
+      max-width: 2200px;
+	  margin: 0 auto;
+
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+	  width: 294px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+	
+	.swiper-button-prev.swiper-button-disabled,
+	.swiper-button-next.swiper-button-disabled {
+	  opacity: 0;
+	  cursor: auto;
+	  pointer-events: none;
+	}	
+
+
+
+	.align-center{
+	  text-align: center;
+	}
+	.video-swiper-wrapper{
+	  width:100%;
+	  margin: 0 auto;
+  
+
+	}
+	.video-container {
+
+		width:278px;
+		height:601px;
+		position: relative;
+		padding-bottom: 67%;
+	}
+
+	.video-play,
+	.video-pause,
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		pointer-events: none;
+	}
+	.video-container iframe{
+		top: 8px;
+		
+	}
+	.video-play {
+			position:absolute;
+
+			left:-8px;
+			width: 294px;
+			height: 617px;
+			border: 8px solid rgb(199, 234, 255);
+			border-radius: 20px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			transition: .2s ease;
+			
+	
+	}
+	
+	.video-play:hover {
+			
+		border-color: #FF7F00;
+
+	}
+	
+	.video-paused {
+	
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	
+	.video-paused:hover {
+		background-image: url("../images/youtube-play.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	
+	}
+
+	/*
+	.video-mobile{
+		display: block;
+	}
+	
+	.video-desktop{
+		display: none;
+	}
+	*/
+
+	.pirate-ship-img {
+		
+		position: absolute;
+		text-align:left;
+
+		bottom: -700px;
+		left: -150px;
+		min-width: 450px;
+	
+	}
+	
+	.rubber-duck-img {
+		
+		position: absolute;
+		text-align:right;
+		
+		bottom: -600px;
+		right: -50px;
+		min-width: 150px;
+
+	}
+	
+
+	
+	.x-overflow-clip{
+			overflow-x: hidden;
+			overflow-y: visible;
+	}
+	
+	#content {
+			position: absolute;
+			width: 100%;
+			z-index:2000;
+	}
+	
+	#media-content {
+			position: relative;
+			width: 100%;
+			z-index:2001;
+	}
+
+	.anchored-images {
+		z-index:0;
+		height:100%;
+
+	}
+
+	  .container, .container-sm {
+		  max-width: 400px;
+		/*max-width: 540px;*/
+	  }
+
+
+		@media (min-width: 576px) {
+			  .container, .container-sm {
+				  max-width: 450px;
+				/*max-width: 540px;*/
+			  }
+			  .old-photo {
+				max-width: 249px;
+			  
+			  }
+			  
+			.scroll {
+				top:-100px;
+			}
+			  
+			  .scroll-end{
+				width: 434px;
+				background-size: 434px 100%;
+			  }	
+					  
+				.scroll-end-left{
+					left:-285px;
+				}
+					  
+				.scroll-end-right{
+					left:-155px;
+				}
+				
+				
+			  .body-text-first p:first-letter{ 
+				font-size: 80pt;
+				float: left;
+				line-height: 100pt;
+				margin: -30pt 6pt -30pt 0;
+				
+			  }
+			  .body-text p, ul, li{ 
+				font-size: 20pt;
+				word-spacing: -.5pt;
+				
+			  }
+			  
+			  .body-text ul a{ 
+				font-weight: normal;
+				font-family: Helvetica;
+				font-size: 16pt;
+			
+			}
+			  
+			  #scroll-content {
+				padding: 0px 90px 0px 90px; 
+
+			  }
+			  
+
+			  
+			 /* 
+			.video-mobile{
+				display: none;
+			}
+			
+			.video-desktop{
+				display: block;
+			}
+			*/	  
+
+			.pirate-ship-img {
+				
+				bottom: -700px;
+				left: -150px;
+				min-width: 300px;
+
+			}
+
+			.rubber-duck-img {
+				
+				bottom: -700px;
+				right: -100px;
+
+			}	
+		  
+		}
+
+		@media (min-width: 768px) {
+		  .container, .container-sm, .container-md {
+			  max-width: 560px;
+			/*max-width: 720px;*/
+		  }
+		  
+		  .old-photo {
+			max-width: 249px;
+		  
+		  }
+		  
+			.pirate-ship-img {
+				
+				bottom: -900px;
+				left: -250px;
+				min-width: 700px;
+
+			}
+
+			.rubber-duck-img {
+				
+				bottom: -850px;
+				right: -100px;
+
+			}	
+
+		  
+		}
+
+		@media (min-width: 992px) {
+		  .container, .container-sm, .container-md, .container-lg {
+			  max-width: 600px;
+			/*max-width: 960px;*/
+		  }
+		  
+			.pirate-ship-img {
+				
+				bottom: -1000px;
+				left: -200px;
+
+			}
+
+			.rubber-duck-img {
+				
+				bottom: -900px;
+				right: -100px;
+
+			}		  	
+		  
+		}
+
+		@media (min-width: 1200px) {
+		  .container, .container-sm, .container-md, .container-lg, .container-xl {
+			  max-width: 700px;
+			/*max-width: 600px;*/
+		  }
+		  
+			.pirate-ship-img {
+				
+				bottom: -1100px;
+				left: -300px;
+
+			}
+
+			.rubber-duck-img {
+				
+				bottom: -1000px;
+				right: -100px;
+
+			}		  
+		  
+		}
+
+/*
+
+		@media (min-width: 2400px) {
+		  .container, .container-sm, .container-md, .container-lg, .container-xl {
+			  max-width: 700px;
+
+		  }
+		}
+
+		@media (min-width: 2900px) {
+		  .container, .container-sm, .container-md, .container-lg, .container-xl {
+			  max-width: 800px;
+
+		  }
+*/
+
+		  
+		  
+		}
+
+
+
+.modal-dialog {
+
+	margin: 0;
+	
+
+}
+
+.modal-content {
+
+	top:-1px;
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 2px;
+	border-right 2px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 2px;
+
+	
+}
+
+.modal-body {
+	padding: 0;
+
+}
+
+.modal-header {
+	position: absolute;
+	z-index:99999;
+	right: 10px;
+	border: 0;
+}
+
+.modal-header .close{
+	background-color: #ffffff;
+	
+}
+.ekko-lightbox-container>div.ekko-lightbox-item:not(.show) {
+	display: none;
+}
+
+		
+
+
+
+/* Animations */
+.boat {
+
+  /*Shorthand: animation-name duration timing-function iterations; */
+  -webkit-animation:        rock-boat 5s ease-in-out infinite;
+  -moz-animation:    rock-boat 5s ease-in-out infinite;
+  -mt-animation:     rock-boat 5s ease-in-out infinite;
+  -o-animation:      rock-boat 5s ease-in-out infinite;
+  
+  /*The number of times the animation will cycle
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count:    infinite;
+  -o-animation-iteration-count:      infinite;
+  animation-iteration-count:         infinite; */
+}
+
+.duck {
+
+  /*Shorthand: animation-name duration timing-function iterations; */
+  -webkit-animation:        rock-boat 4s ease-in-out infinite;
+  -moz-animation:    rock-boat 4s ease-in-out infinite;
+  -mt-animation:     rock-boat 4s ease-in-out infinite;
+  -o-animation:      rock-boat 4s ease-in-out infinite;
+  
+  /*The number of times the animation will cycle
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count:    infinite;
+  -o-animation-iteration-count:      infinite;
+  animation-iteration-count:         infinite; */
+}
+
+
+body {
+  -webkit-animation-fill-mode: forwards;
+}
+
+
+/* Keyframes */
+@-webkit-keyframes rock-boat {
+  
+  /*The 0% and 100% declarations are not necessary here because they are the same as the original value that the elements hold within the webpage */
+  0%   {-webkit-transform: rotate(2.5deg) translateY(0);
+        -moz-transform:    rotate(2.5deg) translateY(0);
+        -ms-transform:     rotate(2.5deg) translateY(0);
+        -o-transform:      rotate(2.5deg) translateY(0);
+        transform:         rotate(2.5deg) translateY(0);}
+  50%  {-webkit-transform: rotate(-5deg) translateY(-75px);
+        -moz-transform:    rotate(-5deg) translateY(-75px);
+        -ms-transform:     rotate(-5deg) translateY(-75px);
+        -o-transform:      rotate(-5deg) translateY(-75px);
+        transform:         rotate(-5deg) translateY(-75px);}
+  100% { -webkit-transform: rotate(2.5deg) translateY(0);
+         -moz-transform:    rotate(2.5deg) translateY(0);
+         -ms-transform:     rotate(2.5deg) translateY(0);
+         -o-transform:      rotate(2.5deg) translateY(0);
+          transform:         rotate(2.5deg) translateY(0);}
+  }
+
+.bounce {
+  animation: bounce 5s .5s;
+  animation-iteration-count: infinite;
+  transform: scale(0.85);
+}
+/*
+@keyframes bounce {
+  0% { transform: scale(1.1); opacity: 1 }
+  50% { transform: scale(1.4); opacity: .9; }
+  60% { transform: scale(0.4); opacity: 1 }
+  80% { transform: scale(0.95) }
+  100% { transform: scale(0.85) }
+}
+*/
+
+@keyframes bounce {
+  0% { transform: scale(1.25); opacity: 1 }
+  7.5% { transform: scale(1.55); opacity: .9; }
+  9% { transform: scale(0.55); opacity: 1 }
+  12% { transform: scale(1.1) }
+  15% { transform: scale(1) }
+  100% { transform: scale(1) }
+}
+
